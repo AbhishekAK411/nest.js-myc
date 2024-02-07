@@ -6,3 +6,15 @@ Content-Type: application/json
     "password": "test",
     "admin": true
 }
+
+
+### GET User by ID
+GET http://localhost:3000/auth/2
+
+
+### Find All users with a given email
+GET http://localhost:3000/auth?email=rinzler.abhishek@gmail.com
+
+
+### Delete a user with ID
+DELETE http://localhost:3000/auth/2
